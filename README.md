@@ -1,2 +1,2 @@
 # DrawMaster
-Drawing web app
+run index.html to use the application
