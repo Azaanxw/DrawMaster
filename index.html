@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="lib/p5.min.js"></script>
+
+    <script src="sketch.js"></script>
+
+    <!-- add extra scripts below -->
+    <script src="toolbox.js"></script>
+    <script src="colourPalette.js"></script>
+    <script src="helperFunctions.js"></script>
+
+    <script src="freehandTool.js"></script>
+    <script src="lineToTool.js"></script>
+    <script src="mirrorDrawTool.js"></script>
+    <script src="sprayCanTool.js"></script>
+    <script src="fillTool.js"></script>
+    <script src="blurTool.js"></script>
+    <script src="shapeTool.js"></script>
+    <script src="eraserTool.js"></script>
+    <script src="toolProperties.js"></script>
+    <script src="undoFunction.js"></script>
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  	<div class="wrapper">
+      <div class="box header">My Drawing App
+
+        <button id="clearButton">Clear</button>
+        <button id="saveImageButton">Save Image</button>
+        <button id="undoButton"><img width="10" src="assets/undoButton.png" alt=""> Undo</button>
+
+      </div>
+      <div class="box" id="sidebar"></div>
+      <div id="content"></div>
+      <div class="box colourPalette"></div>
+      <div class="box inputBoxes">
+        <button id="expand">P<br>A<br>L<br>E<br>T<br>T<br>E</button>
+        <div class="box1 inputs">HUE: </div>
+        <div class="box2 inputs">SAT: </div>
+        <div class="box3 inputs">BRIGHT: </div>
+      </div>
+      <div class="box options">
+      </div>
+	</div>
+  </body>
+</html>
